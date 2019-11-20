@@ -1,10 +1,10 @@
 def nyc_pigeon_organizer(data)
-  organized_pigeons = {}
+  final = {}
   
   data.each do |first_level, all_other|
     all_other.each do |category, array|
       array.each do |name|
-        organized_pigeons[name] = { :name =>[], :gender => [], :lives => [] }
+        final[name] = { :name =>[], :gender => [], :lives => [] }
       end
     end
   end
