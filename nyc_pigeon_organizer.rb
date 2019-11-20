@@ -2,6 +2,8 @@ def nyc_pigeon_organizer(data)
   organized_pigeons = {}
   
   data.each do |first_level, all_other|
-    all_other.each do |cat
+    all_other.each do |category, array|
+    
+  end
   end
 end
